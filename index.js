@@ -66,11 +66,7 @@ io.on("connection", (socket) => {
   socket.on("error", (err) => {
     console.log(err);
   });
-
-
-  
 });
-
 
 const PORT = process.env.PORT || 5001;
 server.listen(PORT, () => {
